@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bookshelf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category">Category</string>
+    <string name="interested">Interested</string>
+    <string name="bookshelf">Bookshelf</string>
+    <string name="search">Search</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="books">Books</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="pgcount">"Page Count : "</string>
+</resources>

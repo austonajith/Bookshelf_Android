@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/myCategory">
+
+    <fragment
+        android:id="@+id/myCategory"
+        android:name="com.app.bookshelf.ui.MyCategoriesFragment"
+        android:label="fragment_my_categories"
+        tools:layout="@layout/fragment_my_categories" >
+    </fragment>
+    <fragment
+        android:id="@+id/favBooks"
+        android:name="com.app.bookshelf.ui.InterestedBooksFragment"
+        android:label="InterestedBooksFragment" />
+</navigation>
